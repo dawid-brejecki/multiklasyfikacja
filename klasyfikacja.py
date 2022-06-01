@@ -29,7 +29,7 @@ from sklearn.linear_model import SGDClassifier
 
 
 
-df=pd.read_csv('Desktop/bodyPerformance.csv')
+df=pd.read_csv('bodyPerformance.csv')
 
 # preprocessing
 df = df.dropna()
